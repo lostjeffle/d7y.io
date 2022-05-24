@@ -71,8 +71,8 @@ Dragonfly includes four parts Manager, Scheduler, Dfdaemon and CDN, refer to [Ar
   It also includes a front-end console, which is convenient for users to visually operate the cluster.
 - **Scheduler**: Select the optimal download parent peer for the download peer. Exceptions control Dfdaemon's back-to-source.
 - **Dfdaemon**: Based on the C/S architecture, it provides the `dfget` command download tool,
-  and the `dfget daemon` running daemon to provide task download capabilities.
-- **CDN**: Back-to-source download tasks, cache downloaded data, reduce back-to-source traffic and save bandwidth.
-  A CDN is the root peer in a P2P network.
+  and the `dfget daemon` running daemon to provide task download capabilities. It can be used as a seed peer.
+- **CDN**: CDN is a seed peer. Seed peer can use to Back-to-source download tasks, cache downloaded data, reduce back-to-source traffic and save bandwidth.
+  A seed peer is the root peer in a P2P network.
 
 ![sequence-diagram](../resource/getting-started/sequence-diagram.png)

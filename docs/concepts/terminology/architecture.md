@@ -79,18 +79,19 @@ data market, multi-tenancy, and permission control, etc.
 - Multi-dimensional P2P scheduling strategy
 - Intelligent scheduling algorithm (advanced)
 - The scheduling results can be quantitatively compared and support A/B Testing
-- Scheduling strategy plug-in and CDN subsystem plug-in
+- Scheduling strategy plug-in and seed peer plug-in
 - Meta-information distribution pipeline
 - Client download results and back-to-source results statistics and
   docking with monitoring services
 
 ### CDN {#cdn}
 
+- Back to the source to download resources, as a seed peer.
 - Multi-source adaptation capabilities, including catalog download
   and range download functions
 - DMA read and write
 - Transfer back to the source
-- Distribute warm-up
+- Distribute preheat.
 - Dynamic compression
 - Storage management (seed storage, disk cleaning, block-level storage)
 - Memory file system
@@ -99,6 +100,7 @@ data market, multi-tenancy, and permission control, etc.
 
 ### dfdaemon {#dfdaemon}
 
+- Back to the source to download resources, as a seed peer.
 - Multi-source adaptation capabilities, including catalog
   download and range download functions
 - Efficient IO mechanism

@@ -7,6 +7,7 @@ Dfdaemon is the peer client in P2P network. It will be launched by `dfget` comma
 
 ## Features {#features}
 
+- Back to the source to download resources, as a seed peer.
 - Serve gRPC for `dfget` with downloading feature
 - Serve proxy for container registry mirror and any other http backend
 - Download object like via `http`, `https` and other custom protocol

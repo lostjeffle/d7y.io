@@ -8,6 +8,7 @@ peers in P2P networks for download, avoiding repeated downloads of the same file
 
 ## Features {#features}
 
+- Back to the source to download resources, as a seed peer.
 - Caches data downloaded from the source
 - Provides breakpoint continuation capability
 - Supports multiple storage modes
